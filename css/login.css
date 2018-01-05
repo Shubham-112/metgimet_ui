@@ -1,0 +1,74 @@
+body{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.header{
+    padding-top: 40px;
+}
+
+#brand .brand-name h2{
+    font-size: 16px;
+    color: #cb3165;
+}
+
+#logo img{
+    width: auto;
+    height: 150px;
+}
+
+.mdl-button{
+    height: 45px;
+    width: 300px;
+    min-width: 250px;
+    max-width: 400px;
+    padding: 0px 60px;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.social{
+    margin: 20px 0px;
+}
+
+#or{
+    margin-top: 60px;
+}
+
+#or p{
+    font-size: 18px;
+    color: #d00d4b;
+    font-weight: 600;
+}
+
+#google-login{
+    width: auto;
+    height: 30px;
+    padding-bottom: 0px;
+}
+
+/*.mdl-button-fb{*/
+    /*background-image: url("../images/google.png") !important;*/
+    /*background-repeat: no-repeat !important;*/
+    /*background-size: contain !important;*/
+/*}*/
+
+button{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.footer{
+    padding-top: 100px;
+}
+
+.footer p{
+    font-size: 16px;
+    color: #999;
+}
+
+.footer h3{
+    color: #d7225e;
+    font-weight: bold;
+    font-size: 20px;
+}
