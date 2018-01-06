@@ -28,11 +28,6 @@ body{
     text-transform: none;
 }
 
-
-.mdl-button:hover{
-
-}
-
 .social{
     margin: 20px 0px;
 }
@@ -64,7 +59,7 @@ button{
 }
 
 .footer{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .footer p{
