@@ -7,21 +7,113 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/doctor.css">
 
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="mdl-button">
-        <i class="material-icons">add</i>
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        <i class="material-icons">keyboard_arrow_left</i>
     </button>
-    <div id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">Hidden brand</a>
+    <div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a style="color: #ffffff;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Specializations
+                </a>
+                <div class="dropdown-menu" style="position: absolute" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                </div>
+            </li>
+        </ul>
     </div>
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        <i class="material-icons">home</i>
+    </button>
 </nav>
+
+<div class="body">
+
+    <div class="row">
+        <div class="col-xs-10 col-sm-10 col-md-3" data-toggle="collapse" href="#doc1" role="button" aria-expanded="false" aria-controls="doc1">
+            <div class="image">
+                <img src="images/doctor.png" alt="">
+            </div>
+            <div class="details">
+                <h2 class="name">Dr. R.P. Singh</h2>
+                <p class="clinic">Vistech Eye Clinic</p>
+            </div>
+            <div class="arrows">
+                <a><i class="material-icons">keyboard_arrow_down</i></a>
+            </div>
+        </div>
+    </div>
+    <div class="collapse" id="doc1">
+        <div class="card card-body">
+            <div class="phone">
+                <h3 style="margin-bottom: 0px;">Phone</h3>
+                <p style="margin-bottom: 0px; color: #fff;">9900099900</p>
+            </div>
+            <div class="info">
+                <h3>Full info <i class="material-icons">keyboard_arrow_right</i></h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-10 col-sm-10 col-md-3" data-toggle="collapse" href="#doc2" role="button" aria-expanded="false" aria-controls="doc2">
+            <div class="image">
+                <img src="images/doctor.png" alt="">
+            </div>
+            <div class="details">
+                <h2 class="name">Dr. R.P. Singh</h2>
+                <p class="clinic">Vistech Eye Clinic</p>
+            </div>
+            <div class="arrows">
+                <a><i class="material-icons">keyboard_arrow_down</i></a>
+            </div>
+        </div>
+    </div>
+    <div class="collapse" id="doc2">
+        <div class="card card-body">
+            <div class="phone">
+                <h3 style="margin-bottom: 0px;">Phone</h3>
+                <p style="margin-bottom: 0px; color: #fff;">9900099900</p>
+            </div>
+            <div class="info">
+                <h3>Full info <i class="material-icons">keyboard_arrow_right</i></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-10 col-sm-10 col-md-3" data-toggle="collapse" href="#doc3" role="button" aria-expanded="false" aria-controls="doc3">
+            <div class="image">
+                <img src="images/doctor.png" alt="">
+            </div>
+            <div class="details">
+                <h2 class="name">Dr. R.P. Singh</h2>
+                <p class="clinic">Vistech Eye Clinic</p>
+            </div>
+            <div class="arrows">
+                <a><i class="material-icons">keyboard_arrow_down</i></a>
+            </div>
+        </div>
+    </div>
+    <div class="collapse" id="doc3">
+        <div class="card card-body">
+            <div class="phone">
+                <h3 style="margin-bottom: 0px;">Phone</h3>
+                <p style="margin-bottom: 0px; color: #fff;">9900099900</p>
+            </div>
+            <div class="info">
+                <h3>Full info <i class="material-icons">keyboard_arrow_right</i></h3>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
