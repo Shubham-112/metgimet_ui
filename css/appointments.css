@@ -1,0 +1,139 @@
+body{
+    background-color: #eff1f2;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: #d7225e;
+}
+
+i{
+    color: #ffffff;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    z-index: 1001;
+}
+
+.col-xs-10, .col-sm-10, .col-md-3{
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding: 15px;
+    padding-top: 0px;
+    -webkit-box-shadow: 0px 16px 22px -17px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 16px 22px -17px rgba(0,0,0,0.55);
+    box-shadow: 0px 16px 22px -17px rgba(0,0,0,0.55);
+    z-index: 1000;
+}
+
+.dropdown a{
+    font-size: 16px;
+}
+
+.mdl-button{
+    width: 30px;
+    border-radius: 100%;
+    height: 30px;
+    padding: 0px;
+    min-width: initial;
+    line-height: 26px;
+}
+
+.navbar{
+    padding: 10px;
+    -webkit-box-shadow: 0px 16px 22px -17px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 16px 22px -17px rgba(0,0,0,0.25);
+    box-shadow: 0px 16px 22px -17px rgba(0,0,0,0.25);
+}
+
+.image img{
+    width: 70px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: -32px;
+}
+
+.image, .details, .arrows, .phone, .info{
+    display: inline-block;
+}
+
+.details{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+
+.details h2{
+    font-size: 20px;
+}
+
+.arrows i{
+    color: #000;
+}
+
+.arrows{
+    float: right;
+    position: relative;
+    top: 46px;
+    right: 20px;
+}
+
+.collapse{
+    background-color: #d7225e;
+    /*width: 94%;*/
+    margin: auto;
+}
+
+.card{
+    background-color: #d7225e;
+}
+
+.phone, .info{
+    width: 46%;
+}
+
+.phone{
+    margin-left: 10px;
+    border-right: 1px solid #ffffff;
+}
+
+.info{
+    position: absolute;
+    top: 17px;
+    left: 220px;
+}
+
+.text-center h2{
+    font-size: 18px;
+}
+
+.info i{
+    position: relative;
+    top: 5px;
+}
+
+.phone h3, .info h3{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.card-body{
+    padding: 10px 20px;
+}
+
+.date{
+    margin-top: -10px;
+}
+
+#heading{
+    width: 170px;
+    margin: auto;
+    color: #d7225e;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
