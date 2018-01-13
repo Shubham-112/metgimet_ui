@@ -117,3 +117,83 @@ body{
 .actions i{
     width: 35px;
 }
+
+.image img{
+    width: 70px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.image, .rev_details, .arrows, .phone, .info{
+    display: inline-block;
+}
+
+.rev_details{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+
+.rev_details h2{
+    font-size: 20px;
+}
+
+.arrows i{
+    color: #000;
+}
+
+.arrows{
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+
+.collapse{
+    background-color: #d7225e;
+    /*width: 94%;*/
+    margin: auto;
+}
+
+.card{
+    background-color: #d7225e;
+}
+
+.phone, .info{
+    width: 100%;
+}
+
+.info{
+    position: absolute;
+    top: 17px;
+    left: 220px;
+}
+
+.info i{
+    position: relative;
+    top: 5px;
+}
+
+.phone h3, .info h3{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.card-body{
+    padding: 10px 20px;
+}
+
+.reviews{
+    margin: 20px 0px;
+}
+
+.reviews h3{
+    background-color: #333;
+    padding: 10px 0px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.fa-star{
+    color: #d7225e;
+}
