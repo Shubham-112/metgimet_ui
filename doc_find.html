@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metgimet</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/doc_find.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        <i style="color: #000;" class="material-icons">keyboard_arrow_left</i>
+    </button>
+    <div class="heading">
+        <h2>Find Doctor</h2>
+    </div>
+    <div>
+        <div class="select form-group">
+            <select style="z-index: 3000; box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075), 0 0 0px" class="form-control" id="exampleSelect1">
+                <option>Location</option>
+                <option>Meerut</option>
+                <option>Delhi</option>
+                <option>Agra</option>
+                <option>Ahmedabad</option>
+            </select>
+        </div>
+        <!--<ul class="navbar-nav mr-auto">-->
+            <!--<li class="nav-item dropdown">-->
+                <!--<a style="color: #ffffff;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                    <!--Specializations-->
+                <!--</a>-->
+                <!--<div class="dropdown-menu" style="position: absolute" aria-labelledby="navbarDropdown">-->
+                    <!--<a class="dropdown-item" href="#">Action</a>-->
+                <!--</div>-->
+            <!--</li>-->
+        <!--</ul>-->
+    </div>
+</nav>
+
+<div class="body">
+
+    <div class="search text-center">
+        <i class="material-icons" id="search">search</i>
+        <select style="background-color: #ffffff" class="selectpicker" data-live-search="true">
+            <option class="hidden" >Choose Specialization</option>
+            <option data-tokens="Opthalmology">Opthalmology</option>
+            <option data-tokens="Physician">Physician</option>
+            <option data-tokens="Neurologist">Neurologist</option>
+        </select>
+    </div>
+
+    <div id="heading" class="text-center">
+        <h3 style="font-size: 18px; color:#6e6f6f">Most Searched Specializations</h3>
+    </div>
+
+    <div class="categories">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-3 text-center first">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                    <span><i class="fa fa-stethoscope" aria-hidden="true"></i></span>
+                    <p class="services">Physician</p>
+                </button>
+            </div>
+            <div class="col-xs-4 col-md-3 text-center">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                    <span><i class="fa fa-eye" aria-hidden="true"></i></span>
+                    <p>Opthalmology</p>
+                </button>
+            </div>
+            <div class="col-xs-4 col-md-3 text-center">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                    <span><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                    <p>Hospital</p>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-3 text-center first">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                    <span><i class="fa fa-ambulance" aria-hidden="true"></i></span>
+                    <p>Ambulance</p>
+                </button>
+            </div>
+            <div class="col-xs-4 col-md-3 text-center">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                    <span><i class="material-icons">note_add</i></span>
+                    <p>Prescription</p>
+                </button>
+            </div>
+            <div class="col-xs-4 col-md-3 text-center">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                    <span><i class="material-icons">date_range</i></span>
+                    <p>Appointment</p>
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-3 text-center first">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                    <span><i class="material-icons">call</i></span>
+                    <p>Emergency</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+</body>
+</html>
